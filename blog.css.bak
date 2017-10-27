@@ -58,7 +58,8 @@ padding: 10px;
 border-top: 1px solid #665544;
 border-bottom: 1px solid #665544;}
 
-#continue{
+p#continue{
+ text-decoration:underline;
  float:right;}
 h1 {
   font-size:        120%;
