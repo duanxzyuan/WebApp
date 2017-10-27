@@ -68,8 +68,9 @@ h1 {
 h2 { font-size: 90%;
    color:rgb(207,203,191);
 }
-#right{
-  float:right;}
+p#bottom{
+  background-color:rgb(35,42,52);
+ }
 
 a:link {
   color:            black;
