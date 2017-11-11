@@ -1,0 +1,17 @@
+div{
+ width:620px;
+}
+ul{
+ list-style-type:none;
+}
+li{
+ width:240px;
+}
+.out{background-color: white;}
+.over{background-color: gray;}
+.down{background-color: yellow; }
+.highlight{
+ background-color:rgb(112,106,129);
+}
+
+

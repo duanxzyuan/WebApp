@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link href="blog.css"  type="text/css" rel="stylesheet" />
+  <script src="blog.js" charset="gbk"></script>
+  <title>blog</title>
+  
+ </head>
+ <body>
+    <p>
+
+    <input id="search" type="search" name="search"  placeholder="enter the name"/>
+	<input id="searchButton" type="submit" name="search" value="Search"  onclick="Search()"/>
+
+	</p>
+    <ul>
+      <li><img src="1.gif" alt="choose" onclick="see(this)"/>About me<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+      <ul class="unsee" style="display:none">
+	    <li><img id="1" src="1.gif" alt="choose"  onclick="see(this)"/>address<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+		<li><img id="1" src="1.gif" alt="choose"  onclick="see(this)"/>contact<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+	  </ul>
+	  
+	  <li><img src="1.gif" alt="choose" onclick="see(this)"/>Passege<img src="3.gif"  alt="add" onclick="Add(this)"/><img src="4.gif"  alt="delete" onclick="Delete(this)"/></li>
+	  <ul class="unsee" style="display:none">
+	    <li ><img id="1" src="1.gif" alt="choose"  onclick="see(this)"/>today<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+		<li ><img id="1" src="1.gif" alt="choose"  onclick="see(this)"/>yesterday<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+	  </ul>
+	
+     
+	  <li><img src="1.gif" alt="choose"  onclick="see(this)"/>Subscribe<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+	  <ul class="unsee" style="display:none">
+	    <li><img id="1" src="1.gif" alt="choose"  onclick="see(this)"/>recent aritcles<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+		<li><img id="1" src="1.gif" alt="choose"  onclick="see(this)"/>recent comments<img src="3.gif" alt="add" onclick="Add(this)"/><img src="4.gif" alt="delete" onclick="Delete(this)"/></li>
+	  </ul>
+	</ul>
+	
+ </body>
+</html>

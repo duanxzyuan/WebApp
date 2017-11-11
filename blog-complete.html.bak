@@ -30,7 +30,7 @@
 	<section id="blog">
 	<article>
 	<header>
-		<h1><img src="backpack.gif" alt="is a picture" align="middle"/>Will the new Macbook be ultra thin?</h1>
+		<h1><img src="backpack.gif" alt="is a picture" align="right"/>Will the new Macbook be ultra thin?</h1>
 		<h2>writed by me on a jounary 2008 - China<h2>
 	</header>
 	<blockquote>"Life is like riding a bicycle.To keep your balance you must keep moving." -
@@ -86,7 +86,7 @@ up to the edge of an image it can make it harder to read...
 
     <section id="other">
 		<h1> About me</h1><hr />
-		    <p> <img src="me.png" alt="A picture about me. "align="left"/>
+		    <p> <img src="me.png" alt="A picture about me. "align="middle"/>
 			In my family, there are my parents and my brother. My favourite colours are red and yellow. My telephone number is 62526389. And my favourite sport is volleyball.</p>
 		<h1> Subscribe</h1><hr />
 			<ul>
