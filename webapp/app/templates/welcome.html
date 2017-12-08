@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <link href="../static/base.css"  type="text/css" rel="stylesheet" />
+  <script src="../static/base.js" charset="gbk"></script>
+  <title>blog</title>
+
+ </head>
+ <body>
+ <header id="header">
+
+ <div id="head">
+   <p class="welcome">Hello,{{username}} <a id="quit" href="{{ url_for('Login_Register') }}">Quit</a></p>
+
+
+</div>
+</header>
+
+    <p>
+
+    <input id="search" type="search" name="search"  placeholder="enter the name"/><input id="searchButton" type="submit" name="search" value="Search"  onclick="Search()"/><input id="add" type="submit" name="add"  value="Add" onclick="add()"/>
+
+	</p>
+	<div class="navbg">
+     <ul id="navul">
+      <li class="">About me<img src="../static/3.gif" alt="add" onclick="Add(this)"/><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/>
+        <ul class="unsee" style="display:none">
+	      <li class="nav-li"><a href="#">address</a><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/><br/>
+		  </li>
+		  <li class="nav-li"><a href="#">contact</a><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/><br/></li>
+	    </ul>
+	  </li>
+
+	  <li class="">Passege<img src="../static/3.gif"  alt="add" onclick="Add(this)"/><img src="../static/4.gif"  alt="delete" onclick="Delete(this)"/>
+	    <ul class="unsee" style="display:none">
+	      <li class="nav-li"><a href="#">today</a><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/><br/></li>
+		  <li class="nav-li"><a href="#">yesterday</a><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/><br/></li>
+	    </ul>
+	  </li>
+
+	  <li class="">Subscribe<img src="../static/3.gif" alt="add" onclick="Add(this)"/><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/>
+	   <ul class="unsee" style="display:none">
+	    <li class="nav-li"><a href="#">recent aritcles</a><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/><br/></li>
+		<li class="nav-li"><a href="#">recent comments</a><img src="../static/4.gif" alt="delete" onclick="Delete(this)"/><br/></li>
+	   </ul>
+	  </li>
+	</ul>
+	</div>
+ </body>
+</html>
